@@ -1,0 +1,40 @@
+section {
+    background-color: #222831;
+    padding-top: 75px;
+}
+
+.about-img-box {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    max-width: 70%;
+    padding: 15px;
+}
+
+
+.info-about>.feane {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.info-about {
+    max-width: 50%;
+}
+
+@media (max-width:643px) {
+    .info-about {
+        max-width: 100% !important;
+    }
+
+    .about-img-box {
+        max-width: 100% !important;
+    }
+
+    .about-flex-box {
+        flex-direction: column-reverse;
+    }
+}
