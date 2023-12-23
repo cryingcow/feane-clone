@@ -24,7 +24,6 @@ function Header(props) {
     return (
         <>
             <MediaQuery minWidth={643}>
-
                 <div className='nav'>
                     <div className='container'>
                         <div className='flex-box'>
@@ -40,6 +39,7 @@ function Header(props) {
                         </div>
                     </div>
                 </div>
+                <div className='spacing'></div>
             </MediaQuery>
             <MediaQuery maxWidth={642}>
 
