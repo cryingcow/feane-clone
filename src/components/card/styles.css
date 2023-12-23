@@ -9,7 +9,6 @@
 .card:hover {
     img {
         transform: scale(1.1);
-        transition: all 0.3s;
     }
 }
 
@@ -25,7 +24,7 @@
 .card-img-box>img {
     max-width: 50%;
     padding: 15px;
-
+    transition: all 0.3s;
 }
 
 .info-box {

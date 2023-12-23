@@ -1,0 +1,21 @@
+.deal-left {
+    width: 100%;
+}
+
+.deal-right {
+    width: 100%;
+}
+
+.deal-container {
+    gap: 30px;
+}
+
+.deal-section {
+    padding-top: 75px;
+}
+
+@media (max-width:771px) {
+    .deal-container {
+        flex-wrap: wrap;
+    }
+}
