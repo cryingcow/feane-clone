@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './styles.css';
 import Button from '../button/Button';
+import CircleImage from '../circleImage/CircleImage';
 DealCard.propTypes = {
 
 };
@@ -9,9 +10,10 @@ DealCard.propTypes = {
 function DealCard(props) {
     return (
         <div className='deal-card-box flex-box'>
-            <div className="deal-card-img">
+            {/* <div className="deal-card-img">
                 <img src="/assets/o1.jpg" alt="" />
-            </div>
+            </div> */}
+            <CircleImage pixel={165} />
             <div className="deal-info text-white">
                 <h3 className='feane'>
                     Tasty Thursdays

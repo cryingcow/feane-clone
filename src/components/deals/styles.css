@@ -11,7 +11,8 @@
 }
 
 .deal-section {
-    padding-top: 75px;
+    padding-top: 45px;
+    padding-bottom: 90px;
 }
 
 @media (max-width:771px) {

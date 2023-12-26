@@ -1,6 +1,6 @@
 .footer {
     padding: 75px 0px 40px 0;
-    background-color: #222831;
+    background-color: var(--bg);
     position: relative;
     bottom: 0;
     left: 0;
@@ -31,7 +31,7 @@ h4 {
 }
 
 .text-center>a:hover {
-    color: #ffbe33;
+    color: var(--orange);
 }
 
 .font-text {
@@ -52,7 +52,7 @@ h4 {
 }
 
 .social-media>a>:hover {
-    color: #ffbe33;
+    color: var(--orange);
     cursor: pointer;
 }
 

@@ -1,6 +1,6 @@
 .button {
     padding: 10px 45px;
-    background-color: #ffbe33;
+    background-color: var(--orange);
     color: #ffffff;
     border-radius: 45px;
     border: none;

@@ -1,0 +1,41 @@
+.comment-box-text {
+    width: 100%;
+    min-height: 165px;
+    background-color: var(--bg);
+    border-radius: 5px;
+}
+
+.comment-box {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text-box {
+    padding: 25px 25px 15px;
+}
+
+.text-box>p,
+h6 {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.comment-img {
+    padding-top: 30px;
+    position: relative;
+}
+
+.comment-img::before {
+    width: 0;
+    position: absolute;
+    height: 0;
+    display: block;
+    content: ' ';
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid var(--orange);
+    top: 20px;
+    right: 36%;
+}
