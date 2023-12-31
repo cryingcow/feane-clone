@@ -29,6 +29,11 @@ code {
   align-items: center;
 }
 
+.feane-heading {
+  font-size: 35px;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1536px;
   margin-left: auto;
@@ -81,4 +86,8 @@ code {
 
 .text-center {
   text-align: center;
+}
+
+.pb-75 {
+  padding-bottom: 75px;
 }

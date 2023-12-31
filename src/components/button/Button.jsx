@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles.css';
-function Button(props) {
+function Button({ name }) {
     return (
         <a className='button'>
-            {props.name}
+            {name}
         </a>
     );
 }

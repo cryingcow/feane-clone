@@ -1,0 +1,15 @@
+.slick-list {
+    margin: 0 -15px;
+}
+
+.slick-slide>div {
+    padding: 0 15px;
+}
+
+.arrows {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 75px;
+}

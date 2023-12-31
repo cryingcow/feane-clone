@@ -3,7 +3,9 @@ import Comments from './components/comments/Comments';
 import Deals from './components/deals/Deals';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
+import SlideShow from './components/slide/SlideShow';
 import About from './pages/about/About';
+import Booking from './pages/booking/Booking';
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
       <Header />
       <Deals />
       {/* <Card /> */}
-      <Comments />
       <About />
+      <Booking />
+      <SlideShow />
       <Footer />
     </>
   );
