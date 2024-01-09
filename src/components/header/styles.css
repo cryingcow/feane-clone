@@ -24,13 +24,13 @@ ul {
     justify-content: center;
 }
 
-ul>li {
+.ul-nav>li {
     display: inline-block;
     padding: 33px;
     color: #fff;
 }
 
-ul>li:hover {
+.ul-nav>li:hover {
     color: #ffbe33;
     cursor: pointer;
 }

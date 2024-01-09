@@ -19,3 +19,14 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 767px) {
+    .booking-flex {
+        flex-direction: column;
+    }
+
+    .inputs,
+    .map {
+        width: 100%;
+    }
+}

@@ -1,4 +1,4 @@
-.about-section {
+#about-section {
     background-color: #222831;
     padding-top: 75px;
 }
@@ -19,6 +19,10 @@
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 25px;
+}
+
+.about-flex-box {
+    padding-bottom: 50px;
 }
 
 .info-about {

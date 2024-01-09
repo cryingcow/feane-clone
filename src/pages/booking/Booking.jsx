@@ -14,7 +14,7 @@ function Booking(props) {
     const min = `${year}-${month}-${day}`;
     console.log(min);
     return (
-        <section>
+        <section id='booking-section'>
             <div className="container">
                 <h3 className="feane feane-heading">
                     Book A Table

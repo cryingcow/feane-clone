@@ -3,25 +3,25 @@ import PropTypes from 'prop-types';
 import './styles.css';
 import { FaShoppingCart } from "react-icons/fa";
 
-function Card(props) {
+function Card({ name, img, des, price }) {
     return (
         <div className='card'>
             <div className="card-img-box">
-                <img src="/assets/f1.png" alt="error" />
+                <img src={img} alt="error" />
 
             </div>
             <div className="info-box">
                 <div className="info-container">
                     <div className="des">
                         <h3>
-                            Seafood Pizza
+                            {name}
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere porro asperiores pariatur, ratione similique enim libero magnam!
+                            {des}
                         </p>
                     </div>
                     <div className="pnc">
-                        <p className="price">20$</p>
+                        <p className="price">{price}$</p>
                         <div className="cart">
                             <FaShoppingCart className='cart-item' />
                         </div>

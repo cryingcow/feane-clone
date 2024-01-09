@@ -7,15 +7,15 @@ SelectField.propTypes = {
 
 function SelectField(props) {
     return (
-        <>
-            <select>
-                <option id='placeHolder' selected>How many persons?</option>
+        <div className='select-wrapper'>
+            <select id='select' name='select'>
+                <option selected disabled>How many persons?</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
                 <option>5</option>
             </select>
-        </>
+        </div>
     );
 }
 

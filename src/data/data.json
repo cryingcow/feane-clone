@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Delicious Burger",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 18,
+        "image": "/assets/f2.png",
+        "category": "burger"
+    },
+    {
+        "id": 2,
+        "name": "Delicious Burger",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 18,
+        "image": "/assets/f8.png",
+        "category": "burger"
+    },
+    {
+        "id": 3,
+        "name": "Delicious Burger",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 18,
+        "image": "/assets/f7.png",
+        "category": "burger"
+    },
+    {
+        "id": 4,
+        "name": "Delicious Pizza",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 21,
+        "image": "/assets/f1.png",
+        "category": "pizza"
+    },
+    {
+        "id": 5,
+        "name": "Delicious Pizza",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 21,
+        "image": "/assets/f3.png",
+        "category": "pizza"
+    },
+    {
+        "id": 6,
+        "name": "Delicious Pizza",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 21,
+        "image": "/assets/f6.png",
+        "category": "pizza"
+    },
+    {
+        "id": 7,
+        "name": "Delicious Pasta",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 15,
+        "image": "/assets/f9.png",
+        "category": "pasta"
+    },
+    {
+        "id": 8,
+        "name": "Delicious Pasta",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 15,
+        "image": "/assets/f4.png",
+        "category": "pasta"
+    },
+    {
+        "id": 9,
+        "name": "French Fries",
+        "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
+        "price": 12,
+        "image": "/assets/f5.png",
+        "category": "fries"
+    }
+]

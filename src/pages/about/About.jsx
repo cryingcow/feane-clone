@@ -3,7 +3,7 @@ import './styles.css';
 import Button from '../../components/button/Button';
 function About(props) {
     return (
-        <section className='about-section'>
+        <section id='about-section'>
             <div className='container'>
                 <div className="flex-box about-flex-box">
                     <div className="about-img-box">

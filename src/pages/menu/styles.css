@@ -1,0 +1,41 @@
+.menu-buttons>li {
+    color: var(--bg);
+    padding: 10px 33px;
+    margin-bottom: 25px;
+}
+
+.menu-buttons>li:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--bg);
+    color: white !important;
+    border-radius: 50px;
+}
+
+.cards-box {
+    max-width: 33%;
+}
+
+.card-items {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu-section {
+    padding-bottom: 75px;
+}
+
+@media (max-width:990px) {
+    .cards-box {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:769px) {
+    .cards-box {
+        max-width: 100%;
+    }
+}

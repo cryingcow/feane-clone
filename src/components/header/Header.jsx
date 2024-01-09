@@ -30,7 +30,7 @@ function Header(props) {
                             <div className="feane text">
                                 <span>Feane</span>
                             </div>
-                            <ul className='test'>
+                            <ul className='ul-nav'>
                                 <li>HOME</li>
                                 <li>MENU</li>
                                 <li>ABOUT</li>
@@ -58,9 +58,9 @@ function Header(props) {
                         <span>Feane</span>
                     </div>
                     <ul className='mobile' >
-                        <li>HOME</li>
-                        <li>MENU</li>
-                        <li>ABOUT</li>
+                        <li><a href='#menu-section'>MENU</a></li>
+                        <li><a href='#about-section'>ABOUT</a></li>
+                        <li><a href='#booking-section'>BOOKING</a></li>
                     </ul>
                     <div className="icon"><FaShoppingCart /></div>
                 </div>

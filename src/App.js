@@ -1,5 +1,4 @@
-import Card from './components/card/Card';
-import Comments from './components/comments/Comments';
+import Menu from './pages/menu/Menu';
 import Deals from './components/deals/Deals';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -12,7 +11,7 @@ function App() {
     <>
       <Header />
       <Deals />
-      {/* <Card /> */}
+      <Menu />
       <About />
       <Booking />
       <SlideShow />

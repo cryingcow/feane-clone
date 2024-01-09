@@ -23,6 +23,7 @@
 
 .card-img-box>img {
     max-width: 50%;
+    height: 178px;
     padding: 15px;
     transition: all 0.3s;
 }
@@ -62,4 +63,10 @@
     top: 25%;
     left: 25%;
     font-size: 21px;
+}
+
+@media (max-width:575px) {
+    .card {
+        max-width: 100%;
+    }
 }
