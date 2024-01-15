@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "name": "Delicious Burger",
+        "name": "Delicious Beef Burger ",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-        "price": 18,
+        "price": 17,
         "image": "/assets/f2.png",
         "category": "burger"
     },
     {
         "id": 2,
-        "name": "Delicious Burger",
+        "name": "Delicious Grill Chicken Burger",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-        "price": 18,
+        "price": 12,
         "image": "/assets/f8.png",
         "category": "burger"
     },
     {
         "id": 3,
-        "name": "Delicious Burger",
+        "name": "Delicious Fried Chicken Burger",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-        "price": 18,
+        "price": 12,
         "image": "/assets/f7.png",
         "category": "burger"
     },
     {
         "id": 4,
-        "name": "Delicious Pizza",
+        "name": "Delicious SeaFood Pizza",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
         "price": 21,
         "image": "/assets/f1.png",
@@ -33,17 +33,17 @@
     },
     {
         "id": 5,
-        "name": "Delicious Pizza",
+        "name": "Delicious Vegan Pizza",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-        "price": 21,
+        "price": 18,
         "image": "/assets/f3.png",
         "category": "pizza"
     },
     {
         "id": 6,
-        "name": "Delicious Pizza",
+        "name": "Delicious Loaded Pizza",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-        "price": 21,
+        "price": 27,
         "image": "/assets/f6.png",
         "category": "pizza"
     },
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "name": "Delicious Pasta",
+        "name": "Delicious Vegan Pasta",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
         "price": 15,
         "image": "/assets/f4.png",
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "French Fries",
         "description": "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
-        "price": 12,
+        "price": 8,
         "image": "/assets/f5.png",
         "category": "fries"
     }

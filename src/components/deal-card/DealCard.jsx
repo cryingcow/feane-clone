@@ -10,9 +10,6 @@ DealCard.propTypes = {
 function DealCard(props) {
     return (
         <div className='deal-card-box flex-box'>
-            {/* <div className="deal-card-img">
-                <img src="/assets/o1.jpg" alt="" />
-            </div> */}
             <CircleImage pixel={165} />
             <div className="deal-info text-white">
                 <h3 className='feane'>

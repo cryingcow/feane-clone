@@ -31,7 +31,7 @@ function Menu(props) {
 
     }, [value])
     return (
-        <section className='menu-section'>
+        <section id='menu-section'>
             <div className="container">
                 <h3 className='feane feane-heading text-center'>Our Menu</h3>
 
@@ -44,12 +44,14 @@ function Menu(props) {
                         <li value={'fries'} onClick={handleClick}>Fries</li>
                     </ul>
                 </div>
-                <div className="flex-box card-items">
-                    {filterdFoods.map((food) => (
-                        <div className="cards-box">
-                            <Card name={food.name} img={food.image} des={food.description} price={food.price} />
-                        </div>
-                    ))}
+                <div className="container">
+                    <div className="flex-box card-items">
+                        {filterdFoods.map((food) => (
+                            <div className="cards-box">
+                                <Card food={food} />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
