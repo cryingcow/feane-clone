@@ -9,7 +9,7 @@ CircleImage.propTypes = {
 function CircleImage(props) {
     return (
         <div className='deal-card-img' style={{ maxWidth: props.pixel }}>
-            <img src="/assets/o1.jpg" alt="" />
+            <img src={(props.src ? props.src : "/assets/o1.jpg")} alt="" />
         </div>
     );
 }

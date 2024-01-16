@@ -37,6 +37,13 @@ ul {
     cursor: pointer;
 }
 
+.mobile>li>a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 33px;
+    color: #fff;
+}
+
 .feane {
     font-family: 'Dancing Script', cursive;
 }
@@ -65,10 +72,11 @@ ul {
     position: absolute;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 300px;
     background-image: linear-gradient(90deg, rgba(13, 14, 16, 1) 0%, rgba(17, 21, 22, 1) 51%, rgba(57, 67, 68, 1) 100%);
-    display: none;
     flex-direction: column;
+    transform: translateY(-500px);
+    transition: all 0.5s;
     flex-wrap: nowrap;
 }
 
@@ -79,15 +87,11 @@ ul {
     align-content: center;
 }
 
-.close-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+
 
 .show {
-    display: flex;
-    left: 0;
+    transform: translateX(0) !important;
+
 }
 
 .cart-count {
@@ -102,12 +106,45 @@ ul {
     border: solid #323b3c;
 }
 
-.cart-bar {
+#cart-bar {
     position: absolute;
     background-color: #fff;
     height: 100vh;
-    width: 25%;
+    width: 350px;
     z-index: 333;
     top: 0;
     right: 0;
+    transition: all 0.5s;
+    transform: translateX(500px);
+    overflow: auto;
+}
+
+.active-bar {
+    transform: translateX(0) !important;
+}
+
+.close-cart-btn:hover {
+    cursor: pointer;
+}
+
+.close-cart-btn {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.remove-all-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px;
+}
+
+.cart-items {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.empty-cart {
+    margin: auto;
+    text-align: center;
 }

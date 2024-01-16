@@ -16,13 +16,13 @@ export const shoppingCart = createSlice({
             }
         },
         removeFromCart: (state, action) => {
-            delete state.cart[action.payload.id];
+            delete state.cart[action.payload];
         },
         increaseQuantity: (state, action) => {
-            state.quantity[action.payload.id] += 1;
+            state.quantity[action.payload] += 1;
         },
         decreaseQuantity: (state, action) => {
-            state.quantity[action.payload.id] -= 1;
+            state.quantity[action.payload] -= 1;
         },
         clearCart: state => {
             state.cart = {}
@@ -30,5 +30,5 @@ export const shoppingCart = createSlice({
         }
     }
 });
-export const { addToCart, removeFromCart, clearCart } = shoppingCart.actions;
+export const { addToCart, removeFromCart, clearCart, decreaseQuantity, increaseQuantity } = shoppingCart.actions;
 export default shoppingCart.reducer;
