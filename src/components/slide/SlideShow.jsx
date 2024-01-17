@@ -44,9 +44,9 @@ function SlideShow(props) {
         <div className="container pb-75">
             <h3 className='feane text-center feane-heading'>What Says Our Customers</h3>
             <Slider {...settings}>
-                <Comments />
-                <Comments />
-                <Comments />
+                <Comments img={'/assets/client1.jpg'} name={'Ha'} />
+                <Comments img={'/assets/client2.jpg'} name={'Khang'} />
+                <Comments img={'/assets/client1.jpg'} name={'Ha'} />
             </Slider>
             <div className="arrows">
 

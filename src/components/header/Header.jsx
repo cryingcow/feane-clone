@@ -63,12 +63,26 @@ function Header(props) {
             <MediaQuery maxWidth={642}>
 
                 <div className="nav">
-                    <div className="container">
+                    <div className="container flex-box">
 
                         <div onClick={handleClick} className="icon">
                             <IoMenu />
                         </div>
-
+                        <div className="icon" onClick={() => document.getElementById('cart-bar').classList.add('active-bar')}><FaShoppingCart />
+                            {(count == 0 ? <div></div> : <div className="cart-count">{count}</div>)}</div>
+                    </div>
+                    <div id="cart-bar">
+                        <div className="close-cart-btn" >
+                            <IoCloseOutline onClick={() => document.getElementById('cart-bar').classList.remove('active-bar')} />
+                        </div>
+                        {(count == 0 ? <h1 className='empty-cart'>Your Cart is empty</h1> : <div className="container">
+                            <div className="flex-box cart-items">
+                                {Object.values(cart).map((cart) => <CartItems props={cart} />)}
+                            </div>
+                        </div>)}
+                        <div className="remove-all-btn" onClick={() => dispatch(clearCart())}>
+                            REMOVE ALL
+                        </div>
                     </div>
                 </div>
                 <div id='menu-mobile' className="menu-mobile">
@@ -80,8 +94,9 @@ function Header(props) {
                         <li><a href='#about-section'>ABOUT</a></li>
                         <li><a href='#booking-section'>BOOKING</a></li>
                     </ul>
-                    <div className="icon"><FaShoppingCart /></div>
+
                 </div>
+
             </MediaQuery>
         </>
     );
