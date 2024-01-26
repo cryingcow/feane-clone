@@ -13,7 +13,6 @@ function CartItems({ props }) {
     const dispatch = useDispatch();
     return (
         <div className='flex-box item'>
-            {console.log(props)}
             <div className="flex-box wrapper">
                 <div className="item-image">
                     <CircleImage pixel={100} src={props.image} />

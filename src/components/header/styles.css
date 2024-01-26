@@ -120,10 +120,9 @@ ul {
     right: 0;
     transition: all 0.5s;
     transform: translateX(500px);
-    overflow: auto;
 }
 
-#cart-bar::-webkit-scrollbar {
+#items::-webkit-scrollbar {
     display: none;
 }
 
@@ -141,9 +140,6 @@ ul {
 }
 
 .remove-all-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
     padding: 25px;
 }
 
@@ -155,4 +151,23 @@ ul {
 .empty-cart {
     margin: auto;
     text-align: center;
+}
+
+.buttons {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    overflow: auto;
+    height: 80%;
+}
+
+.purchase {
+    padding: 25px;
+}
+
+.purchase:hover {
+    cursor: pointer;
 }

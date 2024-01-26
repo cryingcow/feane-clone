@@ -45,16 +45,23 @@ function Header(props) {
                         </div>
                     </div>
                     <div id="cart-bar">
-                        <div className="close-cart-btn" >
-                            <IoCloseOutline onClick={() => document.getElementById('cart-bar').classList.remove('active-bar')} />
-                        </div>
-                        {(count == 0 ? <h1 className='empty-cart'>Your Cart is empty</h1> : <div className="container">
-                            <div className="flex-box cart-items">
-                                {Object.values(cart).map((cart) => <CartItems props={cart} />)}
+                        <div className="buttons">
+                            <div className="close-cart-btn" >
+                                <IoCloseOutline onClick={() => document.getElementById('cart-bar').classList.remove('active-bar')} />
                             </div>
-                        </div>)}
-                        <div className="remove-all-btn" onClick={() => dispatch(clearCart())}>
-                            REMOVE ALL
+                            <div className="remove-all-btn" onClick={() => dispatch(clearCart())}>
+                                REMOVE ALL
+                            </div>
+                        </div>
+                        <div className='items'>
+                            {(count == 0 ? <h1 className='empty-cart'>Your Cart is empty</h1> : <div className="container">
+                                <div className="flex-box cart-items">
+                                    {Object.values(cart).map((cart) => <CartItems props={cart} />)}
+                                </div>
+                            </div>)}
+                        </div>
+                        <div className="purchase">
+                            <span >PURCHASE</span>
                         </div>
                     </div>
                 </div>
@@ -72,16 +79,23 @@ function Header(props) {
                             {(count == 0 ? <div></div> : <div className="cart-count">{count}</div>)}</div>
                     </div>
                     <div id="cart-bar">
-                        <div className="close-cart-btn" >
-                            <IoCloseOutline onClick={() => document.getElementById('cart-bar').classList.remove('active-bar')} />
-                        </div>
-                        {(count == 0 ? <h1 className='empty-cart'>Your Cart is empty</h1> : <div className="container">
-                            <div className="flex-box cart-items">
-                                {Object.values(cart).map((cart) => <CartItems props={cart} />)}
+                        <div className="buttons">
+                            <div className="close-cart-btn" >
+                                <IoCloseOutline onClick={() => document.getElementById('cart-bar').classList.remove('active-bar')} />
                             </div>
-                        </div>)}
-                        <div className="remove-all-btn" onClick={() => dispatch(clearCart())}>
-                            REMOVE ALL
+                            <div className="remove-all-btn" onClick={() => dispatch(clearCart())}>
+                                REMOVE ALL
+                            </div>
+                        </div>
+                        <div className='items'>
+                            {(count == 0 ? <h1 className='empty-cart'>Your Cart is empty</h1> : <div className="container">
+                                <div className="flex-box cart-items">
+                                    {Object.values(cart).map((cart) => <CartItems props={cart} />)}
+                                </div>
+                            </div>)}
+                        </div>
+                        <div className="purchase">
+                            <span >PURCHASE</span>
                         </div>
                     </div>
                 </div>
