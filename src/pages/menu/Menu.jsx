@@ -47,7 +47,7 @@ function Menu(props) {
                 <div className="container">
                     <div className="flex-box card-items">
                         {filterdFoods.map((food) => (
-                            <div className="cards-box">
+                            <div key={food.id} className="cards-box">
                                 <Card food={food} />
                             </div>
                         ))}

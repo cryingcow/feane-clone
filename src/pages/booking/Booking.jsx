@@ -12,7 +12,6 @@ function Booking(props) {
     const day = new Date().getDate();
     const month = new Date().getMonth() + 1;
     const min = `${year}-${month}-${day}`;
-    console.log(min);
     return (
         <section id='booking-section'>
             <div className="container">

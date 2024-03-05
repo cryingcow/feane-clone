@@ -10,6 +10,8 @@ html {
   overflow: auto;
   padding: 0;
   position: relative;
+  scroll-padding-top: var(--scroll-padding, 88px);
+  scroll-behavior: smooth;
 }
 
 :root {
